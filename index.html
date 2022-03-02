@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Millions Media</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body class="main__body">
+  <header class="header">
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="header__nav">
+        <div class="logo header__logo">
+          <a href="#"><span>Millions</span> Media</a>
+        </div>
+        <div class="header__cat">
+          <a href="#"><span>|</span> Бизнес</a>
+        </div>
+        <div class="header__search descktop">
+          <input class="header__search-input" placeholder="Поиск материалов..." type="search">
+        </div>
+        <div class="header__btn descktop">
+          <button class="button header__btn-subscribe">Подписаться</button>
+        </div>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="mobile-menu">
+          <div class="header__search">
+            <input class="header__search-input" placeholder="Поиск материалов..." type="search">
+          </div>
+          <div class="header__btn">
+            <button class="button header__btn-subscribe">Подписаться</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="preview">
+    <div class="container">
+      <div class="preview__img" style="background-image: url(img/preview-bg.jpg);">
+        <p class="preview__text">Реклама</p>
+      </div>
+    </div>
+  </div>
+  <section class="main">
+    <div class="container">
+      <div class="main__inner">
+        <div class="main__buttons action-buttons">
+          <div class="action-buttons__item">
+            <a href="#">
+              <svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.3,10.08A3,3,0,0,0,19,9H14.44L15,7.57A4.13,4.13,0,0,0,11.11,2a1,1,0,0,0-.91.59L7.35,9H5a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H17.73a3,3,0,0,0,2.95-2.46l1.27-7A3,3,0,0,0,21.3,10.08ZM7,20H5a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H7Zm13-7.82-1.27,7a1,1,0,0,1-1,.82H9V10.21l2.72-6.12A2.11,2.11,0,0,1,13.1,6.87L12.57,8.3A2,2,0,0,0,14.44,11H19a1,1,0,0,1,.77.36A1,1,0,0,1,20,12.18Z"/></svg>
+            </a>
+          </div>
+          <div class="action-buttons__item">
+            <a href="#">
+              <svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,2H6.27A3,3,0,0,0,3.32,4.46l-1.27,7A3,3,0,0,0,5,15H9.56L9,16.43A4.13,4.13,0,0,0,12.89,22a1,1,0,0,0,.91-.59L16.65,15H19a3,3,0,0,0,3-3V5A3,3,0,0,0,19,2ZM15,13.79l-2.72,6.12a2.13,2.13,0,0,1-1.38-2.78l.53-1.43A2,2,0,0,0,9.56,13H5a1,1,0,0,1-.77-.36A1,1,0,0,1,4,11.82l1.27-7a1,1,0,0,1,1-.82H15ZM20,12a1,1,0,0,1-1,1H17V4h2a1,1,0,0,1,1,1Z"/></svg>
+            </a>
+          </div>
+          <div class="action-buttons__item">
+            <a href="#">
+              <svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18,2H6A3,3,0,0,0,3,5V16a3,3,0,0,0,3,3H8.59l2.7,2.71A1,1,0,0,0,12,22a1,1,0,0,0,.65-.24L15.87,19H18a3,3,0,0,0,3-3V5A3,3,0,0,0,18,2Zm1,14a1,1,0,0,1-1,1H15.5a1,1,0,0,0-.65.24l-2.8,2.4L9.71,17.29A1,1,0,0,0,9,17H6a1,1,0,0,1-1-1V5A1,1,0,0,1,6,4H18a1,1,0,0,1,1,1Z"/></svg>
+            </a>
+          </div>
+          <div class="action-buttons__item">
+            <a href="#">
+              <svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18,14a4,4,0,0,0-3.08,1.48l-5.1-2.35a3.64,3.64,0,0,0,0-2.26l5.1-2.35A4,4,0,1,0,14,6a4.17,4.17,0,0,0,.07.71L8.79,9.14a4,4,0,1,0,0,5.72l5.28,2.43A4.17,4.17,0,0,0,14,18a4,4,0,1,0,4-4ZM18,4a2,2,0,1,1-2,2A2,2,0,0,1,18,4ZM6,14a2,2,0,1,1,2-2A2,2,0,0,1,6,14Zm12,6a2,2,0,1,1,2-2A2,2,0,0,1,18,20Z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="main__content article">
+          <h1 class="article__title">Как создать проект и привлечь
+          7 миллионов инвестиций</h1>
+          <div class="article__date">
+            <time>27.02.2022</time>
+          </div>
+          <div class="article__descr">
+            <p>Цены на технику в розничной сети DNS выросли на 30% за сутки. По словам 
+            главы компании Дмитрия Алексеева, ритейлер «не может утверждать, что не 
+            будет дальнейшего роста». Об этом он рассказал на личной странице в Facebook.
+            </p>
+            <p>
+              «Мы оказались в новом мире, где, помимо роста курса, введены технологические 
+              санкции, и пока не понятно, как будут происходить поставки большого перечня 
+              товаров», — заявил Алексеев. Кроме того, он отметил резко возросший спрос на 
+              технику. 24 февраля продажи ритейлера выросли в два раза.
+            </p>
+            <p>На момент публикации материала в DNS можно купить лишь две консоли: Nintendo 
+              Switch и Xbox Series S. Стоимость первой выросла с ₽23 тыс. до ₽28,2 тыс., а
+              последней — с ₽30,8 тыс. до ₽40 тыс. Из-за сбоев в работе сайта проверить цены 
+              видеокарт не удалось.
+            </p>
+          </div>
+          <div class="mobile__action-btn">
+            <div class="action-buttons__item">
+              <a href="#">
+                <svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.3,10.08A3,3,0,0,0,19,9H14.44L15,7.57A4.13,4.13,0,0,0,11.11,2a1,1,0,0,0-.91.59L7.35,9H5a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H17.73a3,3,0,0,0,2.95-2.46l1.27-7A3,3,0,0,0,21.3,10.08ZM7,20H5a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H7Zm13-7.82-1.27,7a1,1,0,0,1-1,.82H9V10.21l2.72-6.12A2.11,2.11,0,0,1,13.1,6.87L12.57,8.3A2,2,0,0,0,14.44,11H19a1,1,0,0,1,.77.36A1,1,0,0,1,20,12.18Z"/></svg>
+              </a>
+            </div>
+            <div class="action-buttons__item">
+              <a href="#">
+                <svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,2H6.27A3,3,0,0,0,3.32,4.46l-1.27,7A3,3,0,0,0,5,15H9.56L9,16.43A4.13,4.13,0,0,0,12.89,22a1,1,0,0,0,.91-.59L16.65,15H19a3,3,0,0,0,3-3V5A3,3,0,0,0,19,2ZM15,13.79l-2.72,6.12a2.13,2.13,0,0,1-1.38-2.78l.53-1.43A2,2,0,0,0,9.56,13H5a1,1,0,0,1-.77-.36A1,1,0,0,1,4,11.82l1.27-7a1,1,0,0,1,1-.82H15ZM20,12a1,1,0,0,1-1,1H17V4h2a1,1,0,0,1,1,1Z"/></svg>
+              </a>
+            </div>
+            <div class="action-buttons__item">
+              <a href="#"><svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18,2H6A3,3,0,0,0,3,5V16a3,3,0,0,0,3,3H8.59l2.7,2.71A1,1,0,0,0,12,22a1,1,0,0,0,.65-.24L15.87,19H18a3,3,0,0,0,3-3V5A3,3,0,0,0,18,2Zm1,14a1,1,0,0,1-1,1H15.5a1,1,0,0,0-.65.24l-2.8,2.4L9.71,17.29A1,1,0,0,0,9,17H6a1,1,0,0,1-1-1V5A1,1,0,0,1,6,4H18a1,1,0,0,1,1,1Z"/></svg></a>
+            </div>
+            <div class="action-buttons__item">
+              <a href="#"><svg fill="#2e2d2d" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18,14a4,4,0,0,0-3.08,1.48l-5.1-2.35a3.64,3.64,0,0,0,0-2.26l5.1-2.35A4,4,0,1,0,14,6a4.17,4.17,0,0,0,.07.71L8.79,9.14a4,4,0,1,0,0,5.72l5.28,2.43A4.17,4.17,0,0,0,14,18a4,4,0,1,0,4-4ZM18,4a2,2,0,1,1-2,2A2,2,0,0,1,18,4ZM6,14a2,2,0,1,1,2-2A2,2,0,0,1,6,14Zm12,6a2,2,0,1,1,2-2A2,2,0,0,1,18,20Z"/></svg></a>
+            </div>
+          </div>
+          <div class="article__feedback-form">
+            <form class="feedback-form" action="#" method="post">
+              <textarea name="message" class="feedback-form__message" placeholder="Оставьте ваш комментарий..."></textarea>
+              <div class="feedback-form__publish">
+                <input class="feedback-form__name" type="text" placeholder="Как можно вас называть?">
+                <button class="feedback-form__btn">Опубликовать</button>
+              </div>
+            </form>
+          </div>
+          <div class="article__reviews reviews">
+            <div class="article__reviews-item">
+              <p><span class="name">Кирилл:</span> Думаю, что текущая ситуация приведет 
+                к репутационным и финансовым потерям со 
+                стороны компании...
+              </p>
+              <div class="reviews__action">
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.3,10.08A3,3,0,0,0,19,9H14.44L15,7.57A4.13,4.13,0,0,0,11.11,2a1,1,0,0,0-.91.59L7.35,9H5a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H17.73a3,3,0,0,0,2.95-2.46l1.27-7A3,3,0,0,0,21.3,10.08ZM7,20H5a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H7Zm13-7.82-1.27,7a1,1,0,0,1-1,.82H9V10.21l2.72-6.12A2.11,2.11,0,0,1,13.1,6.87L12.57,8.3A2,2,0,0,0,14.44,11H19a1,1,0,0,1,.77.36A1,1,0,0,1,20,12.18Z"/></svg>
+                </div>
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,2H6.27A3,3,0,0,0,3.32,4.46l-1.27,7A3,3,0,0,0,5,15H9.56L9,16.43A4.13,4.13,0,0,0,12.89,22a1,1,0,0,0,.91-.59L16.65,15H19a3,3,0,0,0,3-3V5A3,3,0,0,0,19,2ZM15,13.79l-2.72,6.12a2.13,2.13,0,0,1-1.38-2.78l.53-1.43A2,2,0,0,0,9.56,13H5a1,1,0,0,1-.77-.36A1,1,0,0,1,4,11.82l1.27-7a1,1,0,0,1,1-.82H15ZM20,12a1,1,0,0,1-1,1H17V4h2a1,1,0,0,1,1,1Z"/></svg>
+                </div>
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M13.6 39.4l28 28c1.3 1.3 3.4.4 3.4-1.4V51.8c.6 0 1.2-.1 1.7-.1 12.8 0 23.2 10.3 23.2 22.9 0 5.2-1.8 9.7-5.4 14-1.4 1.6.5 4.1 2.4 3.1C79.5 85.3 87 73.4 87 59.9c0-20.2-16.7-36.5-37.3-36.5-1.6 0-3.3.1-4.7.3V10c0-1.8-2.1-2.7-3.4-1.4l-28 28c-.8.8-.8 2 0 2.8zm4.2-1.4L41 14.8V26c0 1.2 1.1 2.2 2.4 2 1.6-.3 4-.7 6.4-.7C68.1 27.3 83 41.9 83 59.9c0 9.1-3.9 17.5-10.7 23.4 1-2.7 1.6-5.6 1.6-8.6 0-14.9-12.2-26.9-27.2-26.9-3.1 0-5.7 0-5.7 2.2v11.2L17.8 38z"/><path fill="#00F" d="M384-510v1684h-1784V-510H384m8-8h-1800v1700H392V-518z"/></svg>
+                </div>
+              </div>
+            </div>
+  
+            <div class="article__reviews-item">
+                <p><span class="name">Кирилл:</span> Думаю, что текущая ситуация приведет 
+                к репутационным и финансовым потерям со 
+                стороны компании...
+              </p>
+              <div class="reviews__action">
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.3,10.08A3,3,0,0,0,19,9H14.44L15,7.57A4.13,4.13,0,0,0,11.11,2a1,1,0,0,0-.91.59L7.35,9H5a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H17.73a3,3,0,0,0,2.95-2.46l1.27-7A3,3,0,0,0,21.3,10.08ZM7,20H5a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H7Zm13-7.82-1.27,7a1,1,0,0,1-1,.82H9V10.21l2.72-6.12A2.11,2.11,0,0,1,13.1,6.87L12.57,8.3A2,2,0,0,0,14.44,11H19a1,1,0,0,1,.77.36A1,1,0,0,1,20,12.18Z"/></svg>
+                </div>
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,2H6.27A3,3,0,0,0,3.32,4.46l-1.27,7A3,3,0,0,0,5,15H9.56L9,16.43A4.13,4.13,0,0,0,12.89,22a1,1,0,0,0,.91-.59L16.65,15H19a3,3,0,0,0,3-3V5A3,3,0,0,0,19,2ZM15,13.79l-2.72,6.12a2.13,2.13,0,0,1-1.38-2.78l.53-1.43A2,2,0,0,0,9.56,13H5a1,1,0,0,1-.77-.36A1,1,0,0,1,4,11.82l1.27-7a1,1,0,0,1,1-.82H15ZM20,12a1,1,0,0,1-1,1H17V4h2a1,1,0,0,1,1,1Z"/></svg>
+                </div>
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M13.6 39.4l28 28c1.3 1.3 3.4.4 3.4-1.4V51.8c.6 0 1.2-.1 1.7-.1 12.8 0 23.2 10.3 23.2 22.9 0 5.2-1.8 9.7-5.4 14-1.4 1.6.5 4.1 2.4 3.1C79.5 85.3 87 73.4 87 59.9c0-20.2-16.7-36.5-37.3-36.5-1.6 0-3.3.1-4.7.3V10c0-1.8-2.1-2.7-3.4-1.4l-28 28c-.8.8-.8 2 0 2.8zm4.2-1.4L41 14.8V26c0 1.2 1.1 2.2 2.4 2 1.6-.3 4-.7 6.4-.7C68.1 27.3 83 41.9 83 59.9c0 9.1-3.9 17.5-10.7 23.4 1-2.7 1.6-5.6 1.6-8.6 0-14.9-12.2-26.9-27.2-26.9-3.1 0-5.7 0-5.7 2.2v11.2L17.8 38z"/><path fill="#00F" d="M384-510v1684h-1784V-510H384m8-8h-1800v1700H392V-518z"/></svg>
+                </div>
+              </div>
+            </div>
+  
+            <div class="article__reviews-item">
+              <p><span class="name">Кирилл:</span> Думаю, что текущая ситуация приведет 
+                к репутационным и финансовым потерям со 
+                стороны компании...
+              </p>
+              <div class="reviews__action">
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.3,10.08A3,3,0,0,0,19,9H14.44L15,7.57A4.13,4.13,0,0,0,11.11,2a1,1,0,0,0-.91.59L7.35,9H5a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H17.73a3,3,0,0,0,2.95-2.46l1.27-7A3,3,0,0,0,21.3,10.08ZM7,20H5a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H7Zm13-7.82-1.27,7a1,1,0,0,1-1,.82H9V10.21l2.72-6.12A2.11,2.11,0,0,1,13.1,6.87L12.57,8.3A2,2,0,0,0,14.44,11H19a1,1,0,0,1,.77.36A1,1,0,0,1,20,12.18Z"/></svg>
+                </div>
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,2H6.27A3,3,0,0,0,3.32,4.46l-1.27,7A3,3,0,0,0,5,15H9.56L9,16.43A4.13,4.13,0,0,0,12.89,22a1,1,0,0,0,.91-.59L16.65,15H19a3,3,0,0,0,3-3V5A3,3,0,0,0,19,2ZM15,13.79l-2.72,6.12a2.13,2.13,0,0,1-1.38-2.78l.53-1.43A2,2,0,0,0,9.56,13H5a1,1,0,0,1-.77-.36A1,1,0,0,1,4,11.82l1.27-7a1,1,0,0,1,1-.82H15ZM20,12a1,1,0,0,1-1,1H17V4h2a1,1,0,0,1,1,1Z"/></svg>
+                </div>
+                <div class="reviews__action-btn">
+                  <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M13.6 39.4l28 28c1.3 1.3 3.4.4 3.4-1.4V51.8c.6 0 1.2-.1 1.7-.1 12.8 0 23.2 10.3 23.2 22.9 0 5.2-1.8 9.7-5.4 14-1.4 1.6.5 4.1 2.4 3.1C79.5 85.3 87 73.4 87 59.9c0-20.2-16.7-36.5-37.3-36.5-1.6 0-3.3.1-4.7.3V10c0-1.8-2.1-2.7-3.4-1.4l-28 28c-.8.8-.8 2 0 2.8zm4.2-1.4L41 14.8V26c0 1.2 1.1 2.2 2.4 2 1.6-.3 4-.7 6.4-.7C68.1 27.3 83 41.9 83 59.9c0 9.1-3.9 17.5-10.7 23.4 1-2.7 1.6-5.6 1.6-8.6 0-14.9-12.2-26.9-27.2-26.9-3.1 0-5.7 0-5.7 2.2v11.2L17.8 38z"/><path fill="#00F" d="M384-510v1684h-1784V-510H384m8-8h-1800v1700H392V-518z"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="main__sidebar">
+          <div class="sidebar-banner" style="background-image: url(img/similar-bg.jpg)">
+            <p>Реклама</p>
+          </div>
+          <div class="similar">
+            <h2 class="similar__title">Похожие материалы</h2>
+            <div class="similar__articles">
+              <article>
+                <a href="#">Новый вирус вызвал швал обсуждений
+                в Российском интернете
+                </a>
+              </article>
+              <article>
+                <a href="#">Новый вирус вызвал швал обсуждений
+                в Российском интернете
+                </a>
+              </article>
+              <article>
+                <a href="#">Новый вирус вызвал швал обсуждений
+                в Российском интернете
+                </a>
+              </article>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <section class="other">
+    <div class="container">
+      <div class="other__top">
+        <div class="other__logo-inner">
+          <div class="logo header__logo other__logo">
+            <a href="#"><span>Millions</span> Media</a>
+          </div>
+          <div class="other__cat">
+            <a href="#"><span>|</span> Другие статьи в разделе “Бизнес”</a>
+          </div>
+        </div>
+        <div class="header__btn other__btn">
+          <button class="button header__btn-subscribe other__btn-subscribe">Подписаться</button>
+        </div>
+      </div>
+      <div class="other__slider swiper">
+        <div class="swiper-wrapper other__slider__wrapper">
+          <div class="swiper-slide other__slider__slide">
+            <div class="other__slide-img">
+              <a href="#"><img src="img/slider-img.jpg" alt=""></a>
+            </div>
+            <a href="#">
+              <h2 class="other__slide-title">Курс криптовалюты Rimba
+              вырос на 179%</h2>
+            </a>
+            <time class="other__slide-date">27.02.2022</time>
+          </div>
+          <div class="swiper-slide other__slider__slide">
+            <div class="other__slide-img">
+              <a href="#"><img src="img/slider-img.jpg" alt=""></a>
+            </div>
+            <a href="#">
+              <h2 class="other__slide-title">Курс криптовалюты Rimba
+              вырос на 179%</h2>
+            </a>
+            <time class="other__slide-date">27.02.2022</time>
+          </div>
+          <div class="swiper-slide other__slider__slide">
+            <div class="other__slide-img">
+              <a href="#"><img src="img/slider-img.jpg" alt=""></a>
+            </div>
+            <a href="#">
+              <h2 class="other__slide-title">Курс криптовалюты Rimba
+              вырос на 179%</h2>
+            </a>
+            <time class="other__slide-date">27.02.2022</time>
+          </div>
+          <div class="swiper-slide other__slider__slide">
+            <div class="other__slide-img">
+              <a href="#"><img src="img/slider-img.jpg" alt=""></a>
+            </div>
+            <a href="#">
+              <h2 class="other__slide-title">Курс криптовалюты Rimba
+              вырос на 179%</h2>
+            </a>
+            <time class="other__slide-date">27.02.2022</time>
+          </div>
+          <div class="swiper-slide other__slider__slide">
+            <div class="other__slide-img">
+              <a href="#"><img src="img/slider-img.jpg" alt=""></a>
+            </div>
+            <a href="#">
+              <h2 class="other__slide-title">Курс криптовалюты Rimba
+              вырос на 179%</h2>
+            </a>
+            <time class="other__slide-date">27.02.2022</time>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="notice">
+    <div class="container">
+      <div class="notice__inner">
+        <p class="notice__text">
+          * Millions.Media не является экспертом, не выражает собственное мнение относительно того или иного продукта /
+          лица, не дает финансовых рекомендации и не является официальным средством массовой информации.
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__col-1 footer__col">
+          <div class="logo">
+            <a href="#"><span>Millions</span> Media</a>
+          </div>
+        </div>
+        <div class="footer__nav-wrapper">
+          <div class="footer__col-2 footer__col">
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li><a href="#" class="footer__nav-link">Размещение материала</a></li>
+                <li><a href="#" class="footer__nav-link">Рекламные интеграции</a></li>
+                <li><a href="#" class="footer__nav-link">Контактные данные</a></li>
+                <li><a href="#" class="footer__nav-link">Спец. Предложение</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__col-3 footer__col">
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li><a href="#" class="footer__nav-link">Размещение материала</a></li>
+                <li><a href="#" class="footer__nav-link">Рекламные интеграции</a></li>
+                <li><a href="#" class="footer__nav-link">Контактные данные</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer__col-4 footer__col">
+          <form action="#" method="post" class="footer__form">
+            <input type="email" class="footer__email" placeholder="Ваша почта">
+            <button type="submit" class="footer__btn">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <div class="container">
+      <p class="copyright__text">Media Millions 2022. ИП Сагитов Кирилл Алексеевич</p>
+    </div>
+  </div>
+  <!-- Библиотеки, скрипты из CDN... -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Cкрипты (удалить все, кроме scripts.min.js перед билдом) -->
+
+  <script src="./js/scripts.min.js"></script>
+</body>
+</html>
